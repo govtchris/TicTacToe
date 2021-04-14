@@ -5,7 +5,7 @@
     /*This property centers our container. */
     margin: 0 auto;
     /* 50 px down from top */
-    margin: 50px;
+    margin-top: 50px;
 }
 
 table {
@@ -29,6 +29,8 @@ td {
     padding: 0px;
     width: 200px;
     height: 200px;
+    /*This prevents the X image from repeating in the square*/
+    background-repeat: no-repeat;
 }
 
 canvas {
