@@ -8,12 +8,13 @@
 </head>
 
 <body id="body">
+    <!-- h1 tag needs to be placed outside the div with the canvas -->
+    <h1>Tic Tac Toe</h1>
     <!-- This container is needed to overlay our canvas over our table. -->
     <div class='center-container'>
         <!--Canvas width and height must be set withis the element. -->
         <canvas id="win-lines" width="608" height="608"></canvas>
         <table>
-            <h1>Tic Tac Toe</h1>
             <tr>
                 <td id="0" onclick='placeXorO("0")'></td>
                 <td id="1" onclick='placeXorO("1")'></td>
